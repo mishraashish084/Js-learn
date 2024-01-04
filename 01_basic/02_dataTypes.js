@@ -8,3 +8,16 @@ let isLoggedIn= false//boolean
 //undefined=>not provided value ie. let a;
 console.log(typeof isLoggedIn);
 console.log(typeof null);//object
+const score = 100
+const scoreValue=100.3
+const id=Symbol('123')
+const anotherId=Symbol('123')
+console.log(id==anotherId);
+const heros = ["superman", "Oldman", "Dora"]
+let myObj={
+    name:"Ashish",
+    age:22,
+
+}
+console.log(typeof myObj)
+console.log(typeof heros)
